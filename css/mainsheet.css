@@ -117,7 +117,13 @@ header{
     background-color: #c2dfe3ff;
 }
 
+.job-details h3{
+    margin-top: 0;
+}
 
+.job-summary p{
+    margin-top: 0;
+}
 
 /*--------------- Education ---------------*/
 
@@ -181,11 +187,16 @@ footer{
 
 @media screen and (max-width:599px) {
     h1{
-        font-size: 50px;
+        font-size: 49px;
         line-height: 0.9;
     }
 
     h2{
+        font-size: 21px;
         line-height: 1;
+    }
+
+    p{
+        font-size: 0.8em;
     }
 }
