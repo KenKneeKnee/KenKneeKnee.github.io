@@ -179,14 +179,14 @@ footer {
         background-image: url(../images/leone-venter-unsplash.jpg);
         background-size: cover;
         background-position: right;
-        padding-bottom: 100px;
+        padding-bottom: 50px;
     }
 
     .education {
         background-image: url(../images/books.jpg);
         background-size: cover;
         background-position: right;
-        padding-bottom: 100px;
+        padding-bottom: 50px;
     }
 }
 
