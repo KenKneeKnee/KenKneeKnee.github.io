@@ -1,6 +1,0 @@
-Hello there! I am a currently an undergradute at Nanyang Techonology University in Singapore studying all things related to data
-and computer science. The current languages under my belt include Python, R and front end web development kit (html, CSS,..) but 
-I am always keen to add more!
-
-In my spare time, I love to game, read, play chess and frustrate myself doing leetcode questions. Away from the desk, I also like to
-run and hike. Come take a look at my previous undertakings!
