@@ -183,8 +183,7 @@ footer {
 
     .projects .content-wrap.divider {
         background-color: rgba(224, 251, 252, 0.95);
-        padding-left: 20px;
-        padding-right: 20px;
+        padding: 25px;
         border-radius: 15px;
     }
 
