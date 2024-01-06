@@ -106,6 +106,24 @@ header p {
     text-align: left;
 }
 
+.profile-container {
+    display: inline-flex;
+    margin-top: 1rem;
+}
+
+.profile-text {
+    margin-left: 2rem;
+}
+
+.display-picture {
+    border-radius: 50%;
+    /* Create a circular shape */
+    border: 2px solid #e6dfdf;
+    /* Optional: add a border */
+}
+
+
+
 
 /*---------------Projects---------------*/
 
