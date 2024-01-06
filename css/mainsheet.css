@@ -102,6 +102,11 @@ header {
     text-align: center;
 }
 
+header p {
+    text-align: left;
+}
+
+
 /*---------------Projects---------------*/
 
 .projects {
