@@ -34,7 +34,7 @@ body {
 }
 
 a {
-    color: #fb6095;
+    color: hsl(339, 95%, 68%);
     cursor: pointer;
 }
 
@@ -94,7 +94,7 @@ h3 {
     border-bottom: none;
 }
 
-/*---------------Profiles---------------*/
+/*---------------Profile---------------*/
 
 header {
     color: #fffffc;
@@ -122,8 +122,21 @@ header p {
     /* Optional: add a border */
 }
 
+input {
+    padding: 1rem;
+    margin: 0 1rem;
+    font-family: 'Londrina Solid', cursive;
+    font-size: 24px;
+    background-color: hsl(190, 80%, 41%);
+    color: hsl(190, 47%, 90%);
+    border-radius: 16px;
+    border: None;
+}
 
-
+input:hover {
+    background-color: hsl(190, 80%, 50%);
+    cursor: pointer;
+}
 
 /*---------------Projects---------------*/
 

@@ -10,9 +10,9 @@
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Kalam:wght@300&display=swap"
+  <link
+    href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Kalam:wght@300&family=Londrina+Solid:wght@300&display=swap"
     rel="stylesheet">
-
   <link rel="stylesheet" href="css/mainsheet.css">
 </head>
 
@@ -36,15 +36,20 @@
               (HTML, CSS, JS and JQuery) and
               I am always keen to add more!
             </p>
-            <p>
+            <p style="margin-bottom: 2rem;">
               In my spare time, I love to game, read, play chess and frustrate myself doing leetcode questions. Away
               from
               the desk, I also like to
               go for a run or hike. Come take a look at my previous works!
             </p>
+            <input type="button" onClick="document.getElementById('projects').scrollIntoView();" value="Projects" />
+            <input type="button" onClick="document.getElementById('work').scrollIntoView();" value="Work Experiences" />
+            <input type="button" onClick="document.getElementById('education').scrollIntoView();" value="Education" />
           </span>
-
         </div>
+
+
+
 
 
 
@@ -53,7 +58,7 @@
     </header>
 
     <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
-    <section class="projects">
+    <section class="projects" id="projects">
       <div class="content-wrap divider">
         <h2>Featured Projects</h2>
         <p>Here are some of the projects I had built (or helped build) in the past.</p>
@@ -76,6 +81,21 @@
           </span>
         </section>
         <!-- End of Project block. -->
+
+        <section class="project-item">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/tFBZZiNk86E?si=3wmikjZTTkZMOLAt"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+          <h3>Analysis on LEGO sets</h3>
+          <p>Tools: <i>Python (for processing and analysis), Flourish (visualisation)</i></p>
+          <p>A data visualisation project and presentation done on all LEGO sets made until 2022. Aspects such as
+            themes, piece counts and sales over time were explored in this project.
+          </p>
+          <span>
+            <a href="documents/CZ4124_Summary.pdf" target="_blank">View Summary Report</a>
+          </span>
+        </section>
 
         <section class="project-item">
           <h3>This Webpage!</h3>
@@ -105,7 +125,7 @@
     </section>
 
     <!-- ***********************  WORK EXPERIENCE  *********************** -->
-    <section class="work">
+    <section class="work" id="work">
       <div class="content-wrap item-details divider">
         <h2>Work Experience</h2>
 
@@ -137,7 +157,7 @@
     </section>
 
     <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
-    <section class="education">
+    <section class="education" id="education">
       <div class="content-wrap item-details">
         <h2>Education</h2>
         <!-- Copy this whole <section> block to add more schools. -->
